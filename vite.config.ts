@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     // 👇 VERY IMPORTANT for GitHub Pages
     // If your repo is https://github.com/username/my-portfolio
     // base should be '/my-portfolio/'
-    base: '/amisha-portfolio/',
+    base: '/',
 
     server: {
       port: 3000,
