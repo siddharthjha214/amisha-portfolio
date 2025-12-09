@@ -5,7 +5,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // 👇 VERY IMPORTANT for GitHub Pages
+
     // If your repo is https://github.com/username/my-portfolio
     // base should be '/my-portfolio/'
     base: '/',
