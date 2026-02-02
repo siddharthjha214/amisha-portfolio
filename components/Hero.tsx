@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from './ui/Button';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-20 px-6 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-32 pb-20 px-6 overflow-hidden">
       <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         {/* Left Column: Image (Desktop Order 1) */}
