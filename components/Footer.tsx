@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         
         <p className="text-xs text-gray-400 tracking-widest uppercase">
-          © {new Date().getFullYear()} Amisha. All rights reserved.
+          © {new Date().getFullYear()} Amisha Jha. All rights reserved.
         </p>
 
         <div className="flex items-center space-x-8">
