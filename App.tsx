@@ -7,17 +7,10 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 function App() {
+  // 1. It starts as false (Light Mode) by default
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    ) {
-      setIsDarkMode(true);
-    }
-  }, []);
-
+  // 2. This effect just applies the CSS class when the toggle button is clicked
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
